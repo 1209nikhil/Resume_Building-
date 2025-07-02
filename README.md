@@ -8,9 +8,12 @@ I'm a full-stack developer...
 
 Authors
 @1209nikhil
+
 Features
-Live previews
-Fullscreen mode
-Cross platform
+-Live previews
+-Fullscreen mode
+-Cross platform
+
+
 Tech Stack
 Serve: HTML, CSS
