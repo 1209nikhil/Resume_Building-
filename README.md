@@ -1,6 +1,7 @@
 # Resume_Building-
 Hi, I'm Nikhil! 👋
-Project Title
+
+Project Title:
 Resume builder website
 
 🚀 About Me
