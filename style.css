@@ -1,0 +1,242 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f5f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo span {
+    font-weight: normal;
+    font-size: 16px;
+    color: #777;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #9960c1;
+}
+
+#about {
+    background-color: #e9e3d9;
+    padding: 100px 50px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin: 10px 0 30px;
+    font-weight: normal;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #388cc8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buttons .btn-secondary {
+    background-color: #fff;
+    color: #0c2e65;
+    border: 1px solid #031915;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.about-image {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    border: #031915 2px solid;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-left: 50px;
+    position: relative;
+}
+
+.about-image img {
+    width: 200px;
+    height: 200px;
+    border: #031915 3px solid;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.about-image h3 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+
+.about-image p {
+    margin: 0;
+    color: #777;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#resume {
+    padding: 100px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#resume h3 {
+    text-align: left;
+    font-size: 28px;
+    margin: 50px 0 30px;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.experience-item, .education-item {
+    display: flex;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.date {
+    min-width: 150px;
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+.job-info, .education-info {
+    margin-right: 50px;
+}
+
+.job-info h4, .education-info h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.job-info p, .education-info p {
+    margin: 0;
+    color: #777;
+}
+
+#contact {
+    padding: 100px 50px;
+    background-color: #e9e3d9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-group input, .form-group textarea {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group input:first-child {
+    margin-right: 20px;
+}
+
+#contact button {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-contact a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #777;
+}
